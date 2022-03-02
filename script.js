@@ -22,9 +22,9 @@ form.addEventListener("submit", function(e){
 })
 
 function getArea(optionalValue){
-    if(optionalValue = "Front-end"){
+    if(optionalValue == "Front-end"){
         return "Sritis: Front-end";
-    } else if (optionalValue = "Back-end"){
+    } else if (optionalValue == "Back-end"){
         return "Sritis: Back-end";
     }
 }
