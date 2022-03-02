@@ -1,7 +1,7 @@
 let form = document.forms["registracija"];
 let list = document.getElementById("id_of_select");
 let btn = document.getElementById("btn-list");
-let parent = document.getElementById("list")
+let parent = document.getElementById("list");
 
 
 form.addEventListener("submit", function(e){
@@ -16,7 +16,6 @@ form.addEventListener("submit", function(e){
     btn.addEventListener("click", function(){
         let li = document.createElement("li");
         parent.appendChild(li);
-        counter++;
         li.innerHTML =  name + ", " + lastName + ", " + school + ", " + city + ", " +getArea(optionalValueOfSelect);
 
     })
